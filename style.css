@@ -1,0 +1,425 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    padding: 0 10px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 5px;
+}
+
+.menu-items div {
+    font-size: 20px;
+    font-family: Cambria, serif;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+.globo { color: #0669de; }
+.g1 { color: #c4170c; }
+.ge { color: #06aa48; }
+.gshow { color: #ff6700; }
+.globoplay { color: #fb0334; }
+.cartola { color: #e3672b; }
+.sportv { color: #08053a; }
+
+.menu-items div:hover {
+    border-bottom: 2px solid currentColor;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, serif;
+}
+
+.account div:hover {
+    color: blue
+}
+
+.account2 {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, serif;
+}
+
+.account2 div:hover {
+    color: blue;
+}
+
+.account .icon {
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.bloco-verde {
+    background-color: #00a651;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 74px;
+}
+
+.bloco-verde::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; 
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.bloco-verde .esquerda-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bloco-verde .menu-icon {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.bloco-verde .logo-ge {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bloco-verde .container img {
+    width: 24px;
+    height: 24px;
+}
+
+.bloco-verde .center-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bloco-verde .direita-menu {
+    display: flex;
+    align-items: center;
+}
+
+.container2 {
+    background-color: #00a651;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+}
+
+.container2 .left-menu,
+.container2 .right-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container2 .left-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container2 .right-menu a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.container2 div a:hover {
+    border-bottom: 2px solid currentColor;
+}
+
+.titulos {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.espaco img{
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-tabela {
+    padding-right: 500px;
+}
+.titulo-jogos {
+    padding-right: 338px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding-left: 30px;
+    border: 0px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 0px;
+    border-right: 1px solid rgba(210, 210, 210, 0.765);
+    border-bottom:  1px solid rgba(210, 210, 210, 0.765);
+    border-top:  1px solid rgba(210, 210, 210, 0.765);
+
+}
+
+th {
+    background-color: #f4f4f4;
+    text-transform: uppercase;
+}
+
+td:nth-child(odd) {
+    background-color: #fdfdfd;
+}
+
+td:nth-child(even) {
+    background-color: #d1d1d143;
+}
+
+td:first-child {
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    padding-left: 20px;
+}
+
+td:last-child{
+    border-right: none;
+}
+
+.jogos {
+    padding-top: 0px;
+}
+
+.rodada {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.seta-esquerda, .seta-direita {
+    display: flex;
+    cursor: pointer;
+    font-size: 24px;
+    gap: 30px;
+}
+
+.jogo {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 15px;
+    size: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.estadio {
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    justify-content: center;
+}
+
+.data-hora {
+    font-weight: bold;
+}
+
+.times {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.time {
+    WIDTH: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.placar{
+    font-weight: bold;
+}
+
+.time img {
+    width: 30px;
+    height: 30px;
+}
+
+.versus {
+    font-size: 16px;
+}
+
+.container-input-search{
+    width: 120px;
+    height: 28px;
+    display: flex;
+    padding: 4px 8px 4px 8px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(1, 56, 1);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.container-input-search:has(.search-input:focus-visible){
+    background-color: white;
+    width: 230px;
+    transition: 0.5s;
+}
+.search-input:focus-visible{
+    color: gray;
+}
+
+.search-input:focus-visible::placeholder{
+    color: grey;
+}
+
+.search-input{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.search-input::placeholder{
+    color: white;
+    font-weight: bold;
+}
+
+.search-icon{
+    color: white;
+    margin-right: 2px;
+}
+
+.container-input-search:has(.search-input:focus-visible) .search-icon{
+    color: grey;
+}
+
+.busca{
+    visibility: hidden;
+    position: fixed;
+    min-height: 30px;
+    width: 110px;
+    transition: width 0.5s;
+    padding: 4px 8px 4px 8px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 80px;
+    right: 16px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.direita-menu:has(.search-input:focus-visible) .busca{
+    transition: visibility 0.5s 1s, width 0.5;
+    visibility: visible;
+    width: 238px;
+}
+
+.bolinha-verde {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.bolinha-branca {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.bolinha-vermelha {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+@media (max-width: 1024px) {
+    .container3 {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .jogos {
+        width: 100%;
+        padding-top: 20px;
+        display: contents;
+        
+    }
+    table {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px){
+    .search-input {
+        display: none;
+    }
+    .container-input-search {
+        width: 40px; 
+        justify-content: center;
+        padding: 0;
+    } 
+    .account{
+        display: none;
+    }
+    .account2 {
+        display: none;
+    }
+    .rodada{
+        gap: 150px;
+    }
+    
+}
